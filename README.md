@@ -34,6 +34,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
+![crewmates](https://github.com/user-attachments/assets/e9457aa3-bf51-45c1-926e-75a75fe1d871)
 
 GIF created with ScreenToGif
 
