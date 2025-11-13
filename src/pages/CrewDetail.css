@@ -1,0 +1,96 @@
+.detail-image {
+    width: 800px;
+    height: 400px;
+    justify-content: center;
+    padding-left: 60px;
+    /*margin: 0 auto 10px auto;*/
+}
+
+
+.detail-title {
+    justify-content: center;
+    margin: 0 0 12px 0;
+    font-size: 20px;
+}
+
+
+.detail-attrs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 6px;
+}
+
+Center the detail content and make it take up more space .detail-attrs {
+    width: 100%;
+}
+
+.attr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.crew-detail-page {
+    display: block;
+    padding: 24px 12px;
+    box-sizing: border-box;
+}
+
+
+
+/*Make the detail content span the full content area (not constrained to a centered card) */
+.detail-title {
+    margin: 6px 0 12px 0;
+    font-size: 35px;
+    text-align: center;
+}
+
+.detail-attrs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 6px;
+}
+
+.attr {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #f0f0f0;
+}
+
+.label {
+    font-weight: 700;
+    color: #333;
+}
+
+.value {
+    color: #555;
+}
+
+.detail-actions {
+    margin-top: 14px;
+    text-align: center;
+}
+
+.btn.edit-btn {
+    background: #464545;
+    color: #ff2b2b;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+@media (max-width: 720px) {
+    .detail-nav {
+        margin-bottom: 12px;
+    }
+
+    .detail-card {
+        padding: 8px 0;
+    }
+}

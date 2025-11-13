@@ -1,0 +1,81 @@
+/* Card component styles */
+.Card {
+    background: linear-gradient(180deg, #474747, #d1cece);
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    /* center content under the image */
+    text-align: center;
+}
+
+.card-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 6px;
+}
+
+.name {
+    margin: 6px 0 0 0;
+    font-size: 1.05rem;
+}
+
+.speed {
+    margin: 4px 0 0 0;
+    font-size: 0.95rem;
+    color: #ffffff;
+}
+
+.color {
+    margin: 6px 0 0 0;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.card-actions {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    /* center actions under card */
+    margin-top: 8px;
+}
+
+.btn {
+    padding: 6px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.view-btn {
+    background: #000000;
+    color: #ff2b2b;
+    border: 1px solid rgba(43, 92, 255, 0.12);
+}
+
+.edit-btn {
+    background: #000000;
+    color: #ff2b2b;
+    border: 1px solid rgba(43, 92, 255, 0.12);
+}
+
+.btn:hover {
+    opacity: 0.95;
+}
+
+@media (max-width: 640px) {
+    .card-top {
+        gap: 8px;
+    }
+
+    .card-image {
+        width: 40px;
+        height: 40px;
+    }
+}

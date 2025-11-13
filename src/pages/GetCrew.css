@@ -1,0 +1,21 @@
+.getCrew {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 250px));
+    gap: 10px;
+    align-items: start;
+    padding: 12px 0;
+}
+
+.getCrew h2 {
+    margin: 0;
+}
+
+.Card {
+    /* small override so cards stretch */
+    min-height: 150px;
+}
+
+/* make links inside cards look like buttons if needed */
+.card-actions .btn {
+    display: inline-block;
+}
