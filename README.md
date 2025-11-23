@@ -1,4 +1,4 @@
-# Web Development Project 7 - *Crewmates*
+# Crewmates
 
 Submitted by: **Ana Maria Carrillo**
 
